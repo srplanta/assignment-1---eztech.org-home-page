@@ -55,8 +55,7 @@
     <!-- --------------------------------------------- -->
     <div class="bg-secondary text-light text-center p-5">
         <h1>
-            Learn the fundamentals with our experts in <span class="text-warning"> Marketing, Programming & Web
-                Designing</span>
+            Learn the fundamentals with our experts in <span class="text-warning mark-text"></span>
         </h1>
         <h4>
             Utilize Effective Training to Reach Your Potential
@@ -518,6 +517,15 @@
 
     </footer>
 
+    <script src="./typed.js-master/lib/typed.min.js"></script>
+    <script>
+        var typed = new Typed(".mark-text", {
+            strings: ["Marketing", "Programming", "Web Designing"],
+            typeSpeed: 150,
+            backSpeed: 150,
+            loop: true
+        })
+    </script>
 </body>
 
 </html>
